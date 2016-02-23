@@ -26,6 +26,8 @@ header {
   height: 36px;  
   background-color: #074d8b;
   line-height: 36px;
+  position: absolute;
+  z-index: 10;
 }
 
 
@@ -90,10 +92,10 @@ header ul li:hover {
   width: 560px;
   height: 620px;
   margin: 0 auto;
-  position:absolute;
+  position: absolute;
   left:50%;
   top:50%;
-  margin:-280px 0 0 -310px;
+  transform: translate(-50%, -50%);
   color: #fff;
 }
 
